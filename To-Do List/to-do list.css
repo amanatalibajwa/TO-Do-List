@@ -1,0 +1,87 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(180deg,#8f2ba8,#35a0d1);
+
+    
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 650px;
+    min-height:620px;
+    /* border: 2px solid rgb(236, 11, 11); */
+    box-shadow: 0px 0px 50px rgb(67, 255, 224);
+    border-radius: 25px;
+    background: url(./to-do\ pic.jpg)no-repeat center center/cover;
+}
+h1{
+    color: white;
+    margin: 25px;
+    font-size: 3rem;
+}
+form input{
+    width: 370px;
+    padding:5px;
+    margin: -5px;
+    /* border-radius: 12px; */
+    text-align: center;
+    border:3px solid  rgb(99, 241, 215);
+    outline: none;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    /* font-weight: bold; */
+    font-size: medium;
+}
+.btn{
+    border: none;
+    outline: none;
+    padding: 8px 25px;
+    background: rgb(99, 241, 215);
+    color:black;
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+ #list{
+/* background-color: rgb(241, 241, 46); */
+    list-style: none;
+    /* padding: 12px 8px 12px 8px; */
+    cursor: pointer;
+    /* user-select: none; */
+    /* width: 450px;
+    height: 50px; */
+    font-size: 1.7rem;
+    padding: 10px 10px;
+    /* border: 2px solid red; */
+    /* margin: auto 20px; */
+    color: rgb(20, 246, 246);
+    width: 380px;
+    height: 30px;
+
+}
+#list li{
+    margin: 20px 10px;
+    /* background: linear-gradient(rgb(219, 255, 57),rgb(5, 246, 206), rgb(9, 207, 19));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    color: aqua;
+  text-align: center;
+}
+/* #list li span{
+    position: absolute;
+    left: 980px;
+} */
